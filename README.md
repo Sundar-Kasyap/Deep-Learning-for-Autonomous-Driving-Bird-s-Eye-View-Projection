@@ -2,8 +2,8 @@
 
 A comparative study of three deep-learning architectures for transforming front-view semantic segmentation maps into Bird's-Eye-View (BEV) representations, using the CARLA simulator. Master's thesis, SRH Berlin University of Applied Sciences (2025).
 
-<!-- Add a hero image here: front-view input → BEV prediction. This is the single most important visual. -->
-<!-- ![BEV transformation example](assets/bev_example.png) -->
+
+[BEV transformation example](assets/bev_example.png) -->
 
 ## Overview
 
