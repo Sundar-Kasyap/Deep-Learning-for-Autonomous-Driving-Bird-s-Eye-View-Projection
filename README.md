@@ -3,7 +3,7 @@
 A comparative study of three deep-learning architectures for transforming front-view semantic segmentation maps into Bird's-Eye-View (BEV) representations, using the CARLA simulator. Master's thesis, SRH Berlin University of Applied Sciences (2025).
 
 
-[BEV transformation example](assets/bev_example.png) -->
+![BEV transformation example](assets/bev_example.png)
 
 ## Overview
 
@@ -19,8 +19,8 @@ Given a semantically segmented **front-view** image (13 classes: road, lane line
 
 **Dataset:** Paired front-view and BEV segmentation maps generated in the CARLA simulator, 13 segmentation classes, preprocessed to NumPy arrays.
 
-<!-- Add the 13-class segmentation breakdown here (slide 8). Methodology detail — keep only if it renders legibly at README width. -->
-<!-- ![13 segmentation classes](assets/segmentation_classes.png) -->
+
+![13 segmentation classes](assets/segmentation_classes.png)
 
 
 **Models compared:**
@@ -53,11 +53,10 @@ Reported as mean Intersection-over-Union (mIoU) on the validation set — the pr
 
 These absolute mIoU values are well below current state-of-the-art BEV segmentation models (~70% mIoU, e.g. uNetXST, DeepLab variants), which were trained on different datasets and configurations. This work is a controlled comparison of architectures under constrained training, not a SOTA submission.
 
-<!-- Add prediction comparison images here (U-Net ST vs U-Net Basic vs Sequential CNN on straight / curved / intersection scenes) -->
-<!-- ![Prediction comparison](assets/prediction_comparison.png) -->
+![Prediction comparison](assets/prediction_comparison.png) -->
 
-<!-- Add error-map visualization here (false negatives / false positives / edge errors) -->
-<!-- ![Error analysis](assets/error_maps.png) -->
+
+![Error analysis](assets/error_maps.png) -->
 
 ## What I took from it
 
