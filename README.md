@@ -53,10 +53,10 @@ Reported as mean Intersection-over-Union (mIoU) on the validation set — the pr
 
 These absolute mIoU values are well below current state-of-the-art BEV segmentation models (~70% mIoU, e.g. uNetXST, DeepLab variants), which were trained on different datasets and configurations. This work is a controlled comparison of architectures under constrained training, not a SOTA submission.
 
-![Prediction comparison](assets/prediction_comparison.png) -->
+![Prediction comparison](assets/prediction_comparison.png)
 
 
-![Error analysis](assets/error_maps.png) -->
+![Error analysis](assets/error_maps.png) 
 
 ## What I took from it
 
